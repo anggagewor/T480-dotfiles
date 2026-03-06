@@ -7,22 +7,25 @@ Focused on **EndeavourOS (Arch Linux)** and **Hackintosh (config only)**.
 
 ---
 
-## 🧠 Device Info
+# 🧠 Device Info
 
-| Item           | Value                    |
-| -------------- | ------------------------ |
-| Model          | Lenovo ThinkPad T480     |
-| Product Name   | 20L50011US               |
-| CPU            | Intel Core i5-8350U      |
-| RAM            | 32 GB                    |
-| GPU            | Intel UHD Graphics 620   |
-| OS             | EndeavourOS / Hackintosh |
-| Display Server | Wayland                  |
-| Desktop        | KDE Plasma               |
+| Item           | Value                                                   |
+| -------------- | ------------------------------------------------------- |
+| Model          | Lenovo ThinkPad T480                                    |
+| Product Name   | 20L50011US                                              |
+| CPU            | Intel Core i5-8350U                                     |
+| RAM            | 32 GB DDR4                                              |
+| GPU            | Intel UHD Graphics 620                                  |
+| WiFi           | Intel AX210 (Wi-Fi 6E)                                  |
+| Storage 1      | WD SN520 256GB NVMe (2230 + extender → 2242, WWAN slot) |
+| Storage 2      | V-Gen Platinum 512GB SATA (2.5")                        |
+| OS             | EndeavourOS / Hackintosh                                |
+| Display Server | Wayland                                                 |
+| Desktop        | KDE Plasma / Hyprland                                   |
 
 ---
 
-## 🗂 Repository Structure
+# 🗂 Repository Structure
 
 ```txt
 t480-dotfiles/
@@ -55,24 +58,27 @@ t480-dotfiles/
 
 ---
 
-## 🐧 Linux Setup (EndeavourOS)
+# 🐧 Linux Setup (EndeavourOS)
 
 Contains configs for:
 
 * KDE Plasma
+* Hyprland
 * Zsh
+* Kitty terminal
+* Waybar
 * System tweaks
 
 ---
 
-## 🍏 Hackintosh Scope
+# 🍏 Hackintosh Scope
 
 This repo includes:
 
 * `config.plist` (sanitized)
-* OpenCore tuning
+* OpenCore tuning notes
 * USB map config
-* Power management notes
+* Power management tweaks
 
 ❌ Not included:
 
@@ -83,7 +89,7 @@ This repo includes:
 
 ---
 
-## 🚀 Usage
+# 🚀 Usage
 
 Clone repo:
 
@@ -100,7 +106,7 @@ Symlink configs manually or using tools like:
 
 ---
 
-## 🧩 TODO / Roadmap
+# 🧩 TODO / Roadmap
 
 * [ ] Symlink installer script
 * [ ] Package list backup (Arch)
@@ -110,13 +116,13 @@ Symlink configs manually or using tools like:
 
 ---
 
-## 📸 Preview (Optional)
+# 📸 Preview (Optional)
 
 Screenshots can be placed in `screenshots/`.
 
 ---
 
-## 🧠 Notes
+# 🧠 Notes
 
 This repo is tailored for:
 
@@ -127,6 +133,6 @@ This repo is tailored for:
 
 ---
 
-## 📜 License
+# 📜 License
 
 MIT — feel free to fork & adapt.
